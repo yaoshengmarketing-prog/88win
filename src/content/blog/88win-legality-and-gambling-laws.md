@@ -170,5 +170,3 @@ Curacao eGaming
 [📘 88WIN 帳號安全與防盜設定指南｜如何避免盜用、風控觸發與帳號被限提（2025版）](/post/88win-account-security-guide)
 
 [📘 《88WIN 合法嗎？信譽評價解析、風險揭露與安全保障懶人包》](/post/88win-legality-trust-review)
-
-#88WIN #合法性 #娛樂城牌照 #國際博弈法規 #線上娛樂城 #博弈法規

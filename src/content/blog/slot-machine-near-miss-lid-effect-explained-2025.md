@@ -511,5 +511,3 @@ GLI、BMM 會檢測並封存演算法
 [88WIN 遊戲公平嗎？破解娛樂城 RNG 與機率真相（2025 版）](/post/88win-slot-fairness-rng-rtp-analysis-2025)
 
 [88WIN 老虎機攻略懶人包｜玩法推薦與爆分技巧（2025最新版）](/post/88win-slot-strategy-guide)
-
-#老虎機蓋牌 #差一格 #老虎機心理學 #88WIN

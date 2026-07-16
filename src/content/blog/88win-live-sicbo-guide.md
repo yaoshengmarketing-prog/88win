@@ -295,5 +295,3 @@ draft: false
 [📘 88WIN 小資下注策略懶人包｜200元開始的穩定投注心法與分配技巧（2025最新版）](/post/88win-small-bankroll-guide)
 
 [🎯 88WIN 體育投注玩法全解｜讓分盤、大小分、過關投注一次看懂](/post/88win-sports-betting-types)
-
-#88WIN #真人娛樂 #骰寶專區 #SicBo #真人骰寶 #骰寶技巧 #賠率表

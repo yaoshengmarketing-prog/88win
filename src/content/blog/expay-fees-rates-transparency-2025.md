@@ -127,5 +127,3 @@ ExPay → 手續費依官網公告顯示，成本低於銀行固定費。
 [ExPay 跨境轉帳真的秒到嗎？玩家國際提款實測分享](/post/expay-international-transfer-2025)
 
 [🔐 88WIN 合法嗎？娛樂城信任度與平台安全規範全揭密（2025）](/post/88win-trust-safety-2025)
-
-#ExPay #手續費 #匯率透明 #提款成本 #虛擬幣支付 #88WIN

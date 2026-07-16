@@ -128,5 +128,3 @@ A：完成 KYC、一人一帳號、確保註冊資料與本人一致、只從官
 [88WIN 安全性與合法性完整解析｜平台是否合規？資金是否安全？](/post/88win-security-audit-review-2025)
 
 [88WIN 被鎖帳號？原因解析、AI 風控機制與帳號解鎖完整指南](/post/88win-account-lock-guide)
-
-#88WIN帳號 #88WIN被鎖 #88WIN解鎖 #娛樂城帳號風控 #娛樂城帳號異常

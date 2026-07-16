@@ -195,5 +195,3 @@ draft: false
 [88WIN 提款秒到真的嗎？｜延遲原因與最快提款方式全面解析](/post/88win-withdrawal-speed-guide-2025)
 
 [88WIN APP 提款進度查詢教學｜完整流程、常見問題與快速到帳技巧](/post/88win-app-withdrawal-tracking-guide-2025)
-
-#88WIN #88WIN支付方式 #88WIN支付比較 #銀行轉帳 #電子錢包 #加密貨幣提款

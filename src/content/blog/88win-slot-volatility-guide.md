@@ -214,5 +214,3 @@ draft: false
 [🎰 老虎機高 RTP 就一定穩賺？88WIN 機台選擇與實戰策略解析（2025）](/post/slot-machine-rtp-strategy-guide-2025)
 
 [🥇《88WIN 熱門老虎機推薦排行榜（2025上半年）》](/post/top-slots-2025)
-
-#88WIN #老虎機專區 #高波動機台 #低波動機台 #Slot波動率 #老虎機攻略

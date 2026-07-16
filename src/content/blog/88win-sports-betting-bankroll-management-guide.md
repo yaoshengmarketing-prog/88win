@@ -102,5 +102,3 @@ draft: false
 [📘 88WIN 盤口術語圖解懶人包｜讓分、倒水盤、串關、返水意思一次看懂（新手必收2025版](/post/88win-betting-terms-guide)）
 
 [📘 88WIN 活動參加技巧與紅利設置攻略｜避免踩雷、放大回饋、搭配出金不卡關（2025實戰版）](/post/88win-bonus-setting-strategy)
-
-#88WIN #體育投注 #資金管理 #投注策略 #馬丁格爾 #反馬丁格爾 #資源與懶人包

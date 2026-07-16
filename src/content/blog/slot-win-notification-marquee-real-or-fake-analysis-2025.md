@@ -691,5 +691,3 @@ XX剛按了愛心
 [88WIN 遊戲公平嗎？破解娛樂城 RNG 與機率真相（2025 版）](/post/88win-slot-fairness-rng-rtp-analysis-2025)
 
 [88WIN 老虎機推薦排行榜｜熱門機種特色與高機率玩法攻略（2025 最新）](/post/slot-ranking-2025)
-
-#跑馬燈 #中獎訊息 #老虎機機制 #遊戲心理誘導 #88WIN

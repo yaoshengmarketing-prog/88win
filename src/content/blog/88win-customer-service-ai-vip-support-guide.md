@@ -183,5 +183,3 @@ VIP 客戶優先處理
 [🎧《88WIN 客服聯繫全攻略｜真人客服 × 24 小時處理速度 × 問題解決實測（2025）》](/post/88win-customer-service-guide-2025)
 
 [👑 88WIN VIP 制度完整解析｜等級、權益與加碼總覽（2025）](/post/88win-vip-system-guide-2025)
-
-#88WIN #客服服務 #AI客服 #VIP客服 #娛樂城科技

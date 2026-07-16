@@ -198,5 +198,3 @@ ExPay 的即時鏈上確認。
 [ExPay 出入金速度全解析｜為什麼玩家說比銀行快上好幾倍？搭配 88WIN 更有感](/post/expay-withdrawal-speed-analysis-2025)
 
 [ExPay 安全嗎？玩家提款實測分享｜鏈上透明＋出入金安心解析](/post/expay-withdrawal-security-experience-2025)
-
-#ExPay #新手教學 #88WIN出金 #充值教學 #提款教學 #ExPay怎麼用 #88WIN

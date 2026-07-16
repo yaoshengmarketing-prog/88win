@@ -307,5 +307,3 @@ USDT、BTC、ETH
 [📘 88WIN 儲值教學全攻略｜信用卡、虛擬貨幣、銀行轉帳完整流程與注意事項（2025最新版）](/post/88win-deposit-guide)
 
 [📘 88WIN 出金審核流程全解析｜提款時間與常見卡關原因懶人包（2025最新版）](/post/88win-withdrawal-approval-guide)
-
-#88WIN #支付方式 #銀行轉帳 #電子錢包 #加密貨幣 #出金與紅利 #平台專區

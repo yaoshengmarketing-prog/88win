@@ -598,5 +598,3 @@ RTP 必須經第三方驗證
 [88WIN 遊戲公平嗎？破解娛樂城 RNG 與機率真相（2025 版）](/post/88win-slot-fairness-rng-rtp-analysis-2025)
 
 [老虎機玩法教學與回饋率高的推薦機種｜88WIN 電子遊戲新手懶人包（2025）](/post/88win-slot-guide-rtp)
-
-#老虎機爆機時間 #老虎機RTP #老虎機波動率 #RNG演算法 #線上老虎機 #88WIN

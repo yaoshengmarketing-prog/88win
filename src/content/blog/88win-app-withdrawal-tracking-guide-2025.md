@@ -190,5 +190,3 @@ draft: false
 [88WIN 提款秒到真的嗎？｜延遲原因與最快提款方式全面解析](/post/88win-withdrawal-speed-guide-2025)
 
 [88WIN 帳號被鎖怎麼辦？｜5 大原因與完整解鎖流程公開](/post/88win-account-locked-guide-2025)
-
-#88WIN #88WIN提款 #88WIN提款進度 #88WINAPP教學 #娛樂城提款查詢 #APP提款

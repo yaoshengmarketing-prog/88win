@@ -245,5 +245,3 @@ Book of Dead (Play’n GO)
 [🥇《88WIN 熱門老虎機推薦排行榜（2025上半年）》](/post/top-slots-2025)
 
 [🎰 老虎機高 RTP 就一定穩賺？88WIN 機台選擇與實戰策略解析（2025）](/post/slot-machine-rtp-strategy-guide-2025)
-
-#88WIN #真人娛樂 #老虎機專區 #真人老虎機 #電子老虎機 #娛樂城遊戲

@@ -170,5 +170,3 @@ ExPay 的最大特色，就是它不是傳統金融體系的一部分。
 [🔐 88WIN 合法嗎？從提款到客服的安全體驗全評測（2025）](/post/88win-withdrawal-customer-review-2025)
 
 [🔐 88WIN 合法嗎？娛樂城信任度與平台安全規範全揭密（2025）](/post/88win-trust-safety-2025)
-
-#ExPay #不受銀行風控 #88WIN出金 #娛樂城提款 #虛擬幣支付 #88WIN

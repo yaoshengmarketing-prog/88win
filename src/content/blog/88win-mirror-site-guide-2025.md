@@ -154,5 +154,3 @@ HTTPS 加密，具備官方憑證
 [88WIN 提款秒到真的嗎？｜延遲原因與最快提款方式全面解析](/post/88win-withdrawal-speed-guide-2025)
 
 [88WIN 打不開？網站連不上原因與解法全解析](/post/88win-site-not-working)
-
-#88WIN #88WIN鏡像 #88WIN登入 #88WIN備用網址 #娛樂城鏡像網站 #娛樂城防詐騙

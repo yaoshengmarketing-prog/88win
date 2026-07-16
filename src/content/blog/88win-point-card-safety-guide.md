@@ -643,5 +643,3 @@ IP 地區
 [88WIN 合法嗎？娛樂城信任度與平台安全規範全揭密（2025）](/post/88win-trust-safety-2025)
 
 [88WIN 合法嗎？提款安全性與風險解析｜防詐機制與黑網比較懶人包（2025 最新）](/post/88win-legal-withdrawal-safety-guide)
-
-#88WIN #點數卡安全 #儲值教學 #防詐指南 #金流安全 #玩家保護

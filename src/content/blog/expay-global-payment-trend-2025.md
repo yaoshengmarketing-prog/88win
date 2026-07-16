@@ -212,5 +212,3 @@ Wise：KYC 完成後體驗佳
 [ExPay 跨境轉帳真的秒到嗎？玩家國際提款實測分享](/post/expay-fees-rates-transparency-2025)
 
 [88WIN 合法嗎？娛樂城信任度與平台安全規範全揭密（2025）](/post/88win-trust-safety-2025)
-
-#ExPay #全球支付 #娛樂城提款 #金融科技 #88WIN出金 #88WIN

@@ -89,5 +89,3 @@ draft: false
 [📘 88WIN 錯誤訊息與風控代碼總整理｜登入錯誤、提款被退、紅利異常怎麼解？（2025解碼懶人包）](/post/88win-error-code-guide)
 
 [📘 88WIN 客服聯繫與補件教學｜提款卡關、帳號異常、紅利沒入帳怎麼申訴？（2025最新版）](/post/88win-customer-service-guide)
-
-#88WIN #玩家評價 #出金實測 #客服評價 #安全機制 #娛樂城體驗

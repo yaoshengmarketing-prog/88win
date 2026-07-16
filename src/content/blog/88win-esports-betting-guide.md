@@ -191,5 +191,3 @@ LOL、CS:GO、Dota 2 等熱門遊戲 全面支援
 [📘 88WIN 串關組合策略懶人包｜2串1、3串4、4串6 全解析與實戰搭配建議（2025最新版）](/post/88win-multi-combo-bet)
 
 [📘 《體育投注數據查詢工具推薦｜讓你下注更有依據的 5 大網站》](/post/sports-betting-data-tools)
-
-#88WIN #電競投注 #LOL投注 #CS:GO投注 #Dota2投注 #運彩策略

@@ -666,5 +666,3 @@ IP 會不會被抓
 [88WIN 合法嗎？娛樂城信任度與平台安全規範全揭密](/post/88win-trust-safety-2025)
 
 [88WIN 合法嗎？提款安全性與風險解析｜防詐機制與黑網比較懶人包](/post/88win-legal-withdrawal-safety-guide)
-
-#88WIN #多帳號偵測 #裝置指紋 #AI風控 #IP重複 #帳號安全 #金流合法性

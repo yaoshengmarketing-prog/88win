@@ -161,5 +161,3 @@ draft: false
 [88WIN 出金審核流程全解析｜提款時間與常見卡關原因懶人包](/post/88win-withdrawal-approval-guide)
 
 [88WIN 帳號被鎖怎麼辦？｜5 大原因與完整解鎖流程公開](/post/88win-account-locked-guide-2025)
-
-#88WIN #88WIN提款 #88WIN提款速度 #88WIN出金延遲 #娛樂城提款 #快速提款技巧

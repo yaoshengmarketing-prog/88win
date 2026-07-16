@@ -384,5 +384,3 @@ draft: false
 [88WIN 進階盤口閱讀技巧｜反指盤、倒水盤、誘盤完整解析與實戰辨識法（2025最新版）](/post/88win-odds-trap-strategy)
 
 [88WIN 帳號風控機制解析｜登入異常、提款被鎖、帳號限制常見原因與解法（2025最新版）](/post/88win-account-risk-control)
-
-#單注上限 #限注原因 #娛樂城風控 #投注限制 #88WIN

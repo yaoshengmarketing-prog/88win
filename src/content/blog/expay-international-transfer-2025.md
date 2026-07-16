@@ -135,5 +135,3 @@ ExPay：全年無休、不需要繁瑣證明
 [ExPay 出入金速度全解析｜為什麼玩家說比銀行快上好幾倍？搭配 88WIN 更有感](/post/expay-withdrawal-speed-analysis-2025)
 
 [ExPay 安全嗎？玩家提款實測分享｜鏈上透明＋出入金安心解析](/post/expay-withdrawal-security-experience-2025)
-
-#ExPay #跨境轉帳 #國際提款 #海外提款 #虛擬幣支付 #88WIN出金 #88WIN

@@ -194,5 +194,3 @@ draft: false
 [📘 88WIN 帳號安全與防盜設定指南｜如何避免盜用、風控觸發與帳號被限提（2025版）](/post/88win-account-security-guide)
 
 [👮‍♂️ 88WIN 合法嗎？提款安全性與風險解析｜防詐機制與黑網比較懶人包（2025 最新）](/post/88win-legal-withdrawal-safety-guide)
-
-#88WIN #責任博彩 #安全投注 #自我限制 #自我排除 #資源與懶人包

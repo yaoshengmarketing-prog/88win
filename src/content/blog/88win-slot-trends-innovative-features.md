@@ -70,5 +70,3 @@ draft: false
 [📘 《串關投注教學｜過關玩法解析、組合技巧與風險控管實例》](/post/parlay-betting-guide)
 
 [🎰](/post/88win-slot-rtp-hot-timing-2025)[88WIN 串關操作大全｜玩法規則 × 賠率試算 × 投注紀錄 × 組合建議一篇看懂（2025升級版）](/post/88win-parlay-guide-all-in-one)
-
-#88WIN #老虎機專區 #娛樂城科技 #老虎機趨勢 #創新玩法 #累積彩金 #主題老虎機

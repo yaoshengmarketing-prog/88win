@@ -154,5 +154,3 @@ draft: false
 [88WIN 紅利流水計算全解析｜不同活動條件與達成技巧（2025 完整版）](/post/88win-bonus-wagering-guide-2025)
 
 [88WIN 合法嗎？娛樂城資安風險與金流稽核實測分析](/post/88win-security-audit-review-2025)
-
-#88WIN #88WIN提款失敗 #出金異常 #提款卡關 #娛樂城提款 #出金教學

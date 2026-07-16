@@ -787,5 +787,3 @@ draft: false
 [體育投注勝率提升技巧｜三大心法與資金控管策略公開](/post/sports-betting-strategy-bankroll)
 
 [🎰 老虎機高 RTP 就一定穩賺？88WIN 機台選擇與實戰策略解析（2025）](/post/slot-machine-rtp-strategy-guide-2025)
-
-#88WIN #娛樂城好贏 #勝率迷思 #平台透明度 #玩家習慣 #遊戲本質

@@ -169,5 +169,3 @@ draft: false
 [《88WIN 資安與公平性實測｜真人遊戲背後的加密與監控技術》](/post/88win-live-casino-security)
 
 [88WIN 真人荷官 vs AI荷官：2025娛樂城科技實測報告與玩家評測](/post/live-dealer-vs-ai-dealer-comparison-2025)
-
-#88WIN #真人娛樂 #真人荷官 #串流技術 #公平性驗證

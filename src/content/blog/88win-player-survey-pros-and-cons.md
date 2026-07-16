@@ -181,5 +181,3 @@ draft: false
 [💸 88WIN 出金教學與安全審核說明｜提款流程＋補件機制完整解析（2025 最新）](/post/88win-withdrawal-security-check)
 
 [📘 88WIN 活動參加技巧與紅利設置攻略｜避免踩雷、放大回饋、搭配出金不卡關（2025實戰版）](/post/88win-bonus-setting-strategy)
-
-#88WIN #玩家評價 #玩家回饋 #出金速度 #平台優缺點 #娛樂城評測
