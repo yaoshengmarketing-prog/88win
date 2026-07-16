@@ -1,0 +1,54 @@
+---
+// 全站統一頁尾：深色結構（合作供應商 + 安全監理牌照 + 服務連結 + 18+ 版權），無分類欄
+import { SITE, PROVIDERS, LICENSES } from '../consts';
+const services = [
+  { label: '新手幫助', href: '/blog/categories/newbie' },
+  { label: '常見問題', href: '/post/88win-faq-quick-guide' },
+  { label: '安全與牌照', href: '/security-license' },
+  { label: '服務條款', href: '/terms' },
+  { label: '隱私政策', href: '/privacy' },
+  { label: '聯絡我們', href: SITE.lineUrl },
+];
+---
+<footer class="ft">
+  <div class="ft-sec">
+    <p class="ft-h">合作遊戲供應商</p>
+    <div class="ft-provrow">
+      {PROVIDERS.map((p) => <span>{p}</span>)}
+    </div>
+  </div>
+
+  <div class="ft-lic">
+    <div class="inner">
+      <p class="ft-h2">安全與合法監理</p>
+      <p class="ft-licintro">88WIN 娛樂城重視每一位玩家的權益與資金安全，平台營運參照多個國際博弈監理機構之規範，落實資金隔離、公平性稽核與玩家保障。</p>
+      <div class="ft-liccards">
+        {LICENSES.map((l) => (
+          <div class="lc"><b>{l.name}</b><span>{l.desc}</span></div>
+        ))}
+      </div>
+      <div class="ft-licimgs">
+        {LICENSES.map((l) => (
+          <img src={l.logo} alt={l.name} height="52" loading="lazy" />
+        ))}
+      </div>
+    </div>
+  </div>
+
+  <div class="ft-links">
+    <div class="ft-col">
+      <div class="ft-bt">88WIN</div>
+      <p>88WIN 娛樂城提供體育投注、真人視訊、電子、捕魚與棋牌等多元遊戲，是玩家安心娛樂的官方平台。</p>
+      <p class="ln">官方 LINE 客服：<a href={SITE.lineUrl}>{SITE.lineId}</a></p>
+    </div>
+    <div class="ft-col">
+      <p class="ft-ct">服務與條款</p>
+      {services.map((s) => <a class="fl" href={s.href}>{s.label}</a>)}
+    </div>
+  </div>
+
+  <div class="ft-legal">
+    <p>本站內容僅供 18 歲以上人士娛樂使用。博弈具風險，請理性遊戲、量力而為，切勿將博弈視為賺錢方式；若感到難以自我控制，請適時暫停並尋求協助。</p>
+    <p class="cp">© {SITE.year} {SITE.name}. 版權所有。</p>
+  </div>
+</footer>

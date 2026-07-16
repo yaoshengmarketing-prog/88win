@@ -1,0 +1,26 @@
+---
+import Base from '../../layouts/Base.astro';
+import { SITE } from '../../consts';
+const desc = '2026 世界盃投注工具與賽事資源總整理：賽程、分組、賠率概念與賽前分析入門，帶你用可查證的資訊做更有依據的賽事投注判斷。';
+const jsonLd = { '@context': 'https://schema.org', '@type': 'WebPage', name: `2026 世界盃投注工具｜${SITE.name}`, description: desc, url: `${SITE.url}/world-cup-2026-tools` };
+---
+<Base title="2026 世界盃投注工具" description={desc} type="website" jsonLd={jsonLd}>
+  <section style="background:linear-gradient(180deg,#eaf3fe,#dcecfb); padding:52px 0 30px">
+    <div class="container" style="text-align:center">
+      <p class="eyebrow">WORLD CUP 2026</p>
+      <h1 class="sec-title" style="font-size:36px">2026 世界盃投注工具</h1>
+    </div>
+    <p class="cat-intro">彙整 2026 世界盃相關賽事資源與投注觀念，協助你在賽前掌握重點、理性下注。</p>
+  </section>
+  <div class="wrap-narrow prose" style="padding:34px 24px 48px; font-size:16px">
+    <h2>賽事資源</h2>
+    <p>2026 世界盃相關賽程、分組與球隊資訊將於此頁陸續整理。建議搭配官方賽程與授權媒體的公開數據交叉查證，掌握最新變動。</p>
+    <h2>投注前先懂的事</h2>
+    <ul>
+      <li><strong>看懂賠率：</strong>賠率反映市場對賽果的預期，並非勝率保證。</li>
+      <li><strong>資金控管：</strong>設定預算與單注上限，避免情緒化追注。</li>
+      <li><strong>賽前分析：</strong>參考球隊近況、傷停與對戰數據，別只看名氣。</li>
+    </ul>
+    <p style="font-size:13px;color:#6a7d99">＊ 本頁為賽事資訊與投注觀念整理，內容以官方與授權來源為準。博弈具風險，18+ 請理性遊戲。</p>
+  </div>
+</Base>

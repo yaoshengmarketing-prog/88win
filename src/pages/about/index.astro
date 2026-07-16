@@ -1,0 +1,28 @@
+---
+import Base from '../../layouts/Base.astro';
+import { SITE } from '../../consts';
+const desc = '認識 88WIN 娛樂城：品牌理念、平台特色、遊戲館別與服務承諾，帶你了解一個信譽良好、存提快速、玩得安心的線上娛樂平台。';
+const jsonLd = { '@context': 'https://schema.org', '@type': 'AboutPage', name: `關於 88WIN｜${SITE.name}`, description: desc, url: `${SITE.url}/about` };
+---
+<Base title="關於 88WIN" description={desc} type="website" jsonLd={jsonLd}>
+  <section style="background:linear-gradient(180deg,#eaf3fe,#dcecfb); padding:52px 0 30px">
+    <div class="container" style="text-align:center">
+      <p class="eyebrow">ABOUT 88WIN</p>
+      <h1 class="sec-title" style="font-size:38px">關於 88WIN 娛樂城</h1>
+    </div>
+    <p class="cat-intro">88WIN 娛樂城致力於打造信譽良好、透明且安全的線上娛樂環境，提供體育投注、真人視訊、電子、捕魚與棋牌等多元遊戲。</p>
+  </section>
+  <div class="wrap-narrow prose" style="padding:34px 24px 48px; font-size:16px">
+    <h2>我們是誰</h2>
+    <p>88WIN 娛樂城以「玩家安心、服務到位」為核心，整合多家國際知名遊戲供應商，帶來豐富多元的遊戲體驗。我們相信，好的娛樂平台不只是遊戲多，更要在資金安全、出金效率與客服品質上都讓玩家放心。</p>
+    <h2>平台特色</h2>
+    <ul>
+      <li><strong>多元遊戲：</strong>體育、真人、電子、捕魚、棋牌、彩票、電競一站玩齊。</li>
+      <li><strong>存提快速：</strong>平均存款、提款時間約 60 秒，入帳無延遲。</li>
+      <li><strong>安全合規：</strong>參照國際監理標準，落實資金隔離與公平性稽核。</li>
+      <li><strong>全年客服：</strong>官方 LINE 客服 <a href={SITE.lineUrl}>{SITE.lineId}</a>，全年無休協助。</li>
+    </ul>
+    <h2>負責任博弈</h2>
+    <p>88WIN 僅提供 18 歲以上人士娛樂使用。博弈具風險，請理性遊戲、量力而為，切勿視為賺錢方式；若感到難以自我控制，請適時暫停並尋求協助。</p>
+  </div>
+</Base>

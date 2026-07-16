@@ -1,0 +1,118 @@
+---
+import '../styles/global.css';
+import SiteHeader from '../components/SiteHeader.astro';
+import SiteFooter from '../components/SiteFooter.astro';
+import { SITE } from '../consts';
+
+const canonical = SITE.url + '/';
+const orgLd = {
+  '@context': 'https://schema.org',
+  '@type': 'Organization',
+  name: SITE.name,
+  alternateName: SITE.brand,
+  url: SITE.url,
+  logo: SITE.url + SITE.logo,
+  description: `${SITE.name}官方平台，提供體育投注、真人視訊、電子、捕魚與棋牌等多元遊戲。`,
+  contactPoint: { '@type': 'ContactPoint', contactType: 'customer support', url: SITE.lineUrl, availableLanguage: ['zh-Hant'] },
+  sameAs: [SITE.lineUrl],
+};
+---
+<!DOCTYPE html>
+<html lang="zh-Hant-TW">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>88WIN 娛樂城｜體育投注・真人・電子捕魚棋牌・每日優惠</title>
+<meta name="description" content="88WIN 娛樂城提供體育投注、真人、電子捕魚棋牌等多元遊戲，信譽良好、存提快速；新會員好禮相送，每日簽到領獎、返水回饋，24 小時客服全年不打烊。">
+<link rel="canonical" href={canonical}>
+<meta property="og:type" content="website">
+<meta property="og:title" content="88WIN 娛樂城｜體育投注・真人・電子捕魚棋牌・每日優惠">
+<meta property="og:site_name" content={SITE.name}>
+<meta property="og:url" content={canonical}>
+<script type="application/ld+json" set:html={JSON.stringify(orgLd)}></script>
+<link rel="alternate" type="application/rss+xml" title={SITE.blogTitle} href="/rss.xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@700;800;900&display=swap" rel="stylesheet">
+</head>
+<body>
+<SiteHeader />
+
+<!-- 桌機首頁 -->
+<div class="dtop">
+<div class="hero"><div class="hslides" id="hslides"><img src="/images/home/11c70e2d7f72.jpg"><img src="/images/home/85c311b0a59f.jpg" loading="lazy"><img src="/images/home/382a3f3df436.jpg" loading="lazy"><img src="/images/home/14864dfaea2d.jpg" loading="lazy"><img src="/images/home/9bc7782de4c4.jpg" loading="lazy"><img src="/images/home/b0dce5131a1b.jpg" loading="lazy"><img src="/images/home/256b642cdfce.jpg" loading="lazy"><img src="/images/home/8bfabd6283d7.jpg" loading="lazy"><img src="/images/home/e75c15cb9a60.jpg" loading="lazy"><img src="/images/home/498d5d0fd59c.jpg" loading="lazy"><img src="/images/home/876d6d2604c7.jpg" loading="lazy"><img src="/images/home/e25bc85f2c48.jpg" loading="lazy"><img src="/images/home/995b84c55217.jpg" loading="lazy"><img src="/images/home/017a50485884.jpg" loading="lazy"><img src="/images/home/4335a51fcde1.jpg" loading="lazy"><img src="/images/home/13ac3deef301.jpg" loading="lazy"><img src="/images/home/93378f6c91d1.jpg" loading="lazy"><img src="/images/home/726b9446101f.jpg" loading="lazy"><img src="/images/home/b9b65283d642.jpg" loading="lazy"><img src="/images/home/09ce5f2423c9.jpg" loading="lazy"></div><div class="hdots" id="hdots"><i class="on"></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i></div></div>
+<div class="ann"><span class="tg">📢 最新公告</span><div class="mqw"><p>🏆 全台遊戲都一樣，但88WIN不一樣！我們信譽最好！存款秒速到 🚀 提款秒出金 ⚡ 賠率最高 ✨ 福利最強 🎁 服務最好 🎉 88WIN家族正在快速壯大…</p></div><button class="more">更多</button></div>
+<div class="wrap">
+  <div class="st"><h2>熱門遊戲</h2><div class="en">TOP 1000+ GAMES</div><div class="sub">你想要的88WIN都有，千萬玩家首選娛樂平台</div></div>
+  <div class="pills"><button class="pill on" style="--pc:#e0a63a" onclick="pick(this,'電子')">電子</button><button class="pill" style="--pc:#a9793f" onclick="pick(this,'真人')">真人</button><button class="pill" style="--pc:#1f6fe0" onclick="pick(this,'體育')">體育</button><button class="pill" style="--pc:#7cba2a" onclick="pick(this,'彩票')">彩票</button><button class="pill" style="--pc:#d13a63" onclick="pick(this,'棋牌')">棋牌</button><button class="pill" style="--pc:#7a4bd0" onclick="pick(this,'電競')">電競</button></div>
+  <div class="showcase" id="showcase"></div>
+
+  <div class="st"><h2>優質服務</h2><div class="en">BEST ONLINE CASINO</div><div class="sub">88WIN娛樂平台全心全意為您，提供最優質的服務</div></div>
+  <div class="svc"><div class="sv"><div class="circle gold"><img src="/images/home/da1deb369f14.png"><b>60</b><small>秒</small></div><div class="sn">平均存款時間 60秒</div><div class="se">AVERAGE TIME OF DEPOSIT</div></div><div class="sv"><div class="circle blue"><img src="/images/home/785669502884.png"><b>60</b><small>秒</small></div><div class="sn">平均提款時間 60秒</div><div class="se">AVERAGE TIME OF WITHDRAW</div></div><div class="sv"><div class="circle gold"><img src="/images/home/6e3324efec82.png"><b>20</b><small>+</small></div><div class="sn">官方合作夥伴 20+</div><div class="se">COOPERATIVE PLATFORM</div></div><div class="sv"><div class="circle blue"><img src="/images/home/6a431b4f6eac.png"><b>365</b><small>+</small></div><div class="sn">全年服務不打烊 365+</div><div class="se">24 Hours</div></div></div>
+  <div class="feats"><div class="fc"><img src="/images/home/c16dbe1290f8.png"><div><b>極速存提轉款</b><i>FAST TRANSACTION</i><p>存款、提款、轉帳超快速，入帳無延遲。</p></div></div><div class="fc"><img src="/images/home/e75e616bb36a.png"><div><b>最全娛樂體驗</b><i>1000+ GAMES</i><p>豐富的遊戲種類，多樣玩法。</p></div></div><div class="fc"><img src="/images/home/d6c48fd9ffb9.png"><div><b>加密安全管理</b><i>ALWAYS ON PROTECTION</i><p>獨家開發加密技術，資料保障最完善。</p></div></div><div class="fc"><img src="/images/home/888136242c75.png"><div><b>支持所有行動設備</b><i>SUPPORT FOR ALL DEVICES</i><p>不管使用任何設備，讓您娛樂投注隨心所欲！</p></div></div></div>
+</div>
+</div>
+
+<!-- 手機首頁 -->
+<div class="mtop">
+  <div class="phone">
+<div class="hero"><div class="slides" id="slides"><img src="/images/home/dcc3f9e24e70.jpg"><img src="/images/home/018272dcbe22.jpg" loading="lazy"><img src="/images/home/3b412b9d0848.jpg" loading="lazy"><img src="/images/home/62cce733be64.jpg" loading="lazy"><img src="/images/home/9cb430d1c795.jpg" loading="lazy"><img src="/images/home/009150832be5.jpg" loading="lazy"><img src="/images/home/78acf85af1c6.jpg" loading="lazy"><img src="/images/home/c58d0b569acf.jpg" loading="lazy"><img src="/images/home/c99a2de9b3a9.jpg" loading="lazy"><img src="/images/home/dbf46e09a0ae.jpg" loading="lazy"><img src="/images/home/2b1ac151180e.jpg" loading="lazy"><img src="/images/home/0377840c1f76.jpg" loading="lazy"><img src="/images/home/6117aa9e7c2f.jpg" loading="lazy"><img src="/images/home/8aa8fcc6f0b8.jpg" loading="lazy"><img src="/images/home/7ee5115fe5f7.jpg" loading="lazy"><img src="/images/home/66d3f1f419e8.jpg" loading="lazy"><img src="/images/home/5b1c67b76ed9.jpg" loading="lazy"><img src="/images/home/b4e89b26f230.jpg" loading="lazy"><img src="/images/home/06246bccd895.jpg" loading="lazy"><img src="/images/home/f9ac67664c34.jpg" loading="lazy"></div><div class="dots" id="dots"><i class="on"></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i><i class=""></i></div></div>
+<div class="ann"><span class="tag">📢 最新公告</span><div class="mq"><p>🔥 88WIN 亞洲領先娛樂品牌，百分百出金保證，信譽良好・透明・安全｜VIP尊榮特享 每月雙紅包 5776 🧧</p></div></div>
+  <div class="wcard"><div class="wtop"><div class="hi" onclick="openModal()">歡迎您，親愛的用戶 · <b>請登入</b> ›</div></div>
+    <div class="hexrow">
+      <button class="hexb" onclick="openModal()"><img src="/images/home/da1deb369f14.png">存款</button>
+      <button class="hexb" onclick="openModal()"><img src="/images/home/785669502884.png">提款</button>
+      <button class="hexb" onclick="openModal()"><img src="/images/home/6e3324efec82.png">轉帳</button>
+      <button class="hexb" onclick="openModal()"><img src="/images/home/6a431b4f6eac.png">VIP</button>
+    </div></div>
+  <div class="secttl">🎮 <span id="secname">熱門</span>遊戲</div>
+  <div class="main"><div class="rail"><button class="rail-i on" onclick="railSel(this,'熱門')"><span>🔥</span>熱門</button><button class="rail-i" onclick="railSel(this,'電子')"><span>🎰</span>電子</button><button class="rail-i" onclick="railSel(this,'真人')"><span>🎴</span>真人</button><button class="rail-i" onclick="railSel(this,'體育')"><span>⚽</span>體育</button><button class="rail-i" onclick="railSel(this,'彩票')"><span>🎯</span>彩票</button><button class="rail-i" onclick="railSel(this,'捕魚')"><span>🐟</span>捕魚</button><button class="rail-i" onclick="railSel(this,'棋牌')"><span>♟</span>棋牌</button></div><div class="content" id="content"></div></div>
+  <div class="fab"><b>88</b>win</div>
+  <div class="bnav"><a href="#"><span>🏷️</span>優惠</a><a href="#"><span>💬</span>客服</a><a href="#" class="on"><span>🏠</span>首頁</a><a href="#"><span>📣</span>推薦</a><a href="#"><span>😊</span>我的</a></div>
+  </div>
+<div class="modal" id="modal"><div class="bg" onclick="closeModal()"></div><div class="mbox">
+  <img src="/images/home/4da310cc8683.png" onclick="closeModal()" style="position:absolute;top:-14px;right:-14px;width:34px;cursor:pointer">
+  <h3>登入提醒</h3><p>此功能需要登入才能使用<br>請登入或註冊</p>
+  <div class="mbtns"><button class="m-login" onclick="go()">登入</button><button class="m-reg" onclick="go()">註冊</button></div></div></div>
+</div>
+
+<SiteFooter />
+
+<script is:inline>
+var PLAT="https://88win6.com/?ag_code=HB1f9879";var CATHERO={"電子": "/images/home/0bdba2a5064d.png", "真人": "/images/home/fd82373962cc.png", "體育": "/images/home/20d633be4224.png", "彩票": "/images/home/4f08b048c307.png", "棋牌": "/images/home/1888dfcdcc32.png"};var CATINFO={"電子": {"t": "電子遊藝", "e": "SLOT GAMES", "d": "提供各類經典老虎機遊戲、刮刮樂、棋牌、街機等遊戲，更多免費遊戲，爆分大獎等你來。"}, "真人": {"t": "真人娛樂", "e": "LIVE CASINO", "d": "美女荷官視訊線上直播桌台，全場嚴密監控，提供最公平的遊戲環境。"}, "體育": {"t": "體育賽事", "e": "SPORTS EVENTS", "d": "涵蓋全球賽事，多元競猜玩法，賽事直播頻道免費看，讓您親臨現場觀賽樂在其中。"}, "彩票": {"t": "彩票投注", "e": "LOTTERY GAMES", "d": "經典彩種、創新玩法，超過百種彩票玩法任您贏。"}, "棋牌": {"t": "棋牌遊戲", "e": "CHESS & CARD GAMES", "d": "提供市面上熱門遊戲種類！搶莊牛牛龍虎鬥，多款棋牌任您挑。"}, "電競": {"t": "電競遊戲", "e": "E-SPORT", "d": "敬請期待 COMING SOON"}};var PGE=`<div class="pl"><div class="plimg" style="background-image:url(/images/home/aa563f86d9c4.png)"></div><span>高登棋牌</span></div><div class="pl"><div class="plimg" style="background-image:url(/images/home/3e7708cb54da.png)"></div><span>88WIN電子</span></div><div class="pl"><div class="plimg" style="background-image:url(/images/home/e3192893c892.png)"></div><span>FU電子</span></div><div class="pl"><div class="plimg" style="background-image:url(/images/home/0727a042c4e3.png)"></div><span>RSG電子</span></div><div class="pl"><div class="plimg" style="background-image:url(/images/home/1ae0a5eb486c.png)"></div><span>ATG電子</span></div><div class="pl"><div class="plimg" style="background-image:url(/images/home/ac8b626dfddc.png)"></div><span>BNG電子</span></div><div class="pl"><div class="plimg" style="background-image:url(/images/home/9a788fe8d3a2.png)"></div><span>PNG電子</span></div><div class="pl"><div class="plimg" style="background-image:url(/images/home/49eb1902221d.png)"></div><span>DB電子</span></div><div class="pl"><div class="plimg" style="background-image:url(/images/home/09df1624a492.png)"></div><span>DB棋牌</span></div><div class="pl"><div class="plimg" style="background-image:url(/images/home/d293ae4515a0.png)"></div><span>ZG電子</span></div><div class="pl"><div class="plimg" style="background-image:url(/images/home/5c7fddb1b16b.png)"></div><span>GR電子</span></div><div class="pl"><div class="plimg" style="background-image:url(/images/home/c73389def615.png)"></div><span>AE電子</span></div>`;
+var PILLC={'電子':'#e0a63a','真人':'#a9793f','體育':'#1f6fe0','彩票':'#7cba2a','棋牌':'#d13a63','電競':'#7a4bd0'};
+function render(cat){
+  var info=CATINFO[cat];var hero=CATHERO[cat];
+  var left = hero? '<div class="sc-hero"><img src="'+hero+'"></div>' : '<div class="sc-hero"><div class="coming" style="--cc:'+PILLC[cat]+'">COMING SOON<br>敬請期待</div></div>';
+  var right='<div class="sc-right"><h3>'+info.t+'</h3><div class="en">'+info.e+'</div><p>'+info.d+'</p>'+(cat==='電子'?('<div class="pgrid">'+PGE+'</div>'):(cat==='電競'?'<div class="coming" style="--cc:'+PILLC[cat]+'">COMING SOON 敬請期待</div>':'<div class="pgrid">'+PGE+'</div>'))+'</div>';
+  document.getElementById('showcase').innerHTML=left+right;
+}
+function pick(b,cat){document.querySelectorAll('.pill').forEach(function(x){x.classList.remove('on')});b.classList.add('on');render(cat);}
+render('電子');
+var hi=0,HS=document.getElementById('hslides'),HD=document.getElementById('hdots').children;
+var HN=HD.length;setInterval(function(){hi=(hi+1)%HN;HS.style.transform='translateX(-'+hi*100+'%)';for(var i=0;i<HN;i++)HD[i].className=i==hi?'on':'';},4000);
+function om(){document.getElementById('modal').classList.add('show')} function cm(){document.getElementById('modal').classList.remove('show')}
+function go(){window.open(PLAT,'_blank')}
+</script>
+<script is:inline>
+var PLAT="https://88win6.com/?ag_code=HB1f9879";var HOT=[{"u": "/images/home/98ba263f8c2c.jpg", "n": "招財熊貓", "p": "RSG"}, {"u": "/images/home/8f8d3badf8b1.jpg", "n": "神秘魔女", "p": "FU"}, {"u": "/images/home/d8adab547d7c.jpg", "n": "虎克船長", "p": "RSG"}, {"u": "/images/home/8ddc0e6f4023.jpg", "n": "海盜寶藏", "p": "BNG"}, {"u": "/images/home/c757c171e52f.jpg", "n": "龍王爭霸", "p": "SPG"}, {"u": "/images/home/18aae7a5d64c.jpg", "n": "街機狂歡", "p": "88W"}, {"u": "/images/home/263fee00089d.jpg", "n": "幸運777", "p": "GR"}, {"u": "/images/home/dbdff3583776.jpg", "n": "賓果賓果", "p": "BG"}, {"u": "/images/home/45bddb2ff889.jpg", "n": "三國武將", "p": "GR"}, {"u": "/images/home/c91ca38c2beb.jpg", "n": "麻將發了", "p": "RSG"}, {"u": "/images/home/96fc1a51cb3a.jpg", "n": "海盜傳說", "p": "DB"}, {"u": "/images/home/d6b94a62711d.jpg", "n": "賓果狂歡", "p": "BG"}];var PROV={"電子": [{"u": "/images/home/fb08c8da49cf.jpg", "c": 165}, {"u": "/images/home/5710ce8758d6.jpg", "c": 91}, {"u": "/images/home/c249a810266f.jpg", "c": 88}, {"u": "/images/home/facca9f73ce5.jpg", "c": 167}, {"u": "/images/home/ea714346981d.jpg", "c": 430}, {"u": "/images/home/81f024617f03.jpg", "c": 7}, {"u": "/images/home/f67816b40c44.jpg", "c": 52}, {"u": "/images/home/c7b3166c64b4.jpg", "c": null}, {"u": "/images/home/41f80af67063.jpg", "c": null}], "真人": [{"u": "/images/home/60dd1e5be2b5.jpg", "c": null}, {"u": "/images/home/ace439c67913.jpg", "c": null}, {"u": "/images/home/88a22300422d.jpg", "c": null}, {"u": "/images/home/be87ae412b82.jpg", "c": null}, {"u": "/images/home/7d1ba96b4a1d.jpg", "c": null}, {"u": "/images/home/7d451dcbf446.jpg", "c": null}], "體育": [{"u": "/images/home/9cf20fd7fcbc.jpg", "c": null}, {"u": "/images/home/4b933d62a69d.jpg", "c": null}, {"u": "/images/home/b295c68b728b.jpg", "c": null}], "彩票": [{"u": "/images/home/12e73d59954a.jpg", "c": null}, {"u": "/images/home/a769eaa1c592.jpg", "c": null}], "捕魚": [{"u": "/images/home/c7b3166c64b4.jpg", "c": null}, {"u": "/images/home/fb08c8da49cf.jpg", "c": null}], "棋牌": [{"u": "/images/home/e5a6932795a6.jpg", "c": 24}, {"u": "/images/home/e277e0df3747.jpg", "c": null}, {"u": "/images/home/f982c971632e.jpg", "c": null}]};
+function renderHot(){return '<div class="ggrid">'+HOT.map(function(g){
+  return '<div class="gcard"><div class="gimg" style="background-image:url('+g.u+')"></div><div class="gmeta"><span class="prov">'+g.p+'</span><b>'+g.n+'</b><i class="star">☆</i></div></div>';
+}).join('')+'</div>';}
+function renderProv(cat){return '<div class="plist">'+(PROV[cat]||[]).map(function(o){
+  var badge='<span class="pv-badge"><b>高達 1.30%</b><i>無限返水</i></span>';
+  return '<div class="pvcard"><img src="'+o.u+'"><div class="pv-ov">'+badge+'</div></div>';
+}).join('')+'</div>';}
+function renderGrid(cat){document.getElementById('content').innerHTML=(cat==='熱門')?renderHot():renderProv(cat);document.getElementById('secname').textContent=cat;}
+function railSel(b,cat){document.querySelectorAll('.rail-i').forEach(function(x){x.classList.remove('on')});b.classList.add('on');renderGrid(cat);}
+renderGrid('熱門');
+var idx=0,S=document.getElementById('slides'),D=document.getElementById('dots').children;
+var MN=D.length;setInterval(function(){idx=(idx+1)%MN;S.style.transform='translateX(-'+idx*100+'%)';for(var i=0;i<MN;i++)D[i].className=i==idx?'on':'';},3500);
+function openDrawer(){document.getElementById('drawer').classList.add('show');document.getElementById('mask').classList.add('show');}
+function closeDrawer(){document.getElementById('drawer').classList.remove('show');document.getElementById('mask').classList.remove('show');}
+function openModal(){document.getElementById('modal').classList.add('show');}
+function closeModal(){document.getElementById('modal').classList.remove('show');}
+function go(){window.open(PLAT,'_blank');}
+</script>
+</body>
+</html>

@@ -1,0 +1,95 @@
+---
+// 全站統一頁首：藍底白字 + LOGO(回首頁) + 方案1導覽(8平鋪+更多6下拉) + 登入/註冊
+// 手機：藍底列(logo+登入+註冊+漢堡) + 抽屜(全部 14 分類 + LINE)
+import { SITE, CATEGORIES, CATEGORY_ORDER, NAV_PRIMARY, NAV_MORE } from '../consts';
+---
+<!-- 桌機頁首 -->
+<header class="hd">
+  <a href="/" aria-label="回 88WIN 首頁"><img class="lg" src={SITE.logo} alt="88WIN 娛樂城" width="167" height="60" /></a>
+  <nav aria-label="主選單">
+    {NAV_PRIMARY.map((slug) => (
+      <a href={`/blog/categories/${slug}`}>{CATEGORIES[slug]}</a>
+    ))}
+    <div class="navmore">
+      <button type="button" aria-haspopup="true">更多 ▾</button>
+      <div class="navdd">
+        {NAV_MORE.map((slug) => (
+          <a href={`/blog/categories/${slug}`}>{CATEGORIES[slug]}</a>
+        ))}
+      </div>
+    </div>
+  </nav>
+  <div class="auth">
+    <a href={SITE.loginUrl} target="_blank" rel="nofollow noopener">👤 登入</a>
+    <span class="sep"></span>
+    <a href={SITE.registerUrl} target="_blank" rel="nofollow noopener">註冊</a>
+  </div>
+</header>
+
+<!-- 手機頁首 -->
+<div class="top">
+  <a href="/" aria-label="回 88WIN 首頁"><img src={SITE.logo} alt="88WIN 娛樂城" height="23" /></a>
+  <div class="top-right">
+    <a href={SITE.loginUrl} target="_blank" rel="nofollow noopener" class="b-login">登入</a>
+    <a href={SITE.registerUrl} target="_blank" rel="nofollow noopener" class="b-reg">註冊</a>
+    <button class="burger" type="button" aria-label="開啟選單" onclick="openDrawer()"><i></i><i></i><i></i></button>
+  </div>
+</div>
+
+<!-- 手機抽屜（全部 14 分類） -->
+<div class="mask" id="mask" onclick="closeDrawer()"></div>
+<nav class="drawer" id="drawer" aria-label="全部分類">
+  <div class="dh">文章分類<span class="x" onclick="closeDrawer()">✕</span></div>
+  <div class="dsub">全部分類（14）</div>
+  {CATEGORY_ORDER.map((slug) => (
+    <a href={`/blog/categories/${slug}`}>{CATEGORIES[slug]}</a>
+  ))}
+  <div style="padding:16px 18px;border-top:1px solid #eef3f9;font-size:13px;color:#5b6b82">
+    官方 LINE 客服：<a href={SITE.lineUrl} style="color:#1b5fc0;font-weight:700;text-decoration:none">{SITE.lineId}</a>
+  </div>
+</nav>
+
+<style is:global>
+/* 桌機頁首（藍底白字） */
+.hd{position:sticky;top:0;z-index:40;background:linear-gradient(90deg,#2160d4,#3d86e6 55%,#57a0ea);display:flex;align-items:center;gap:18px;padding:0 34px;height:72px;box-shadow:0 3px 14px rgba(43,125,233,.25)}
+.hd .lg{height:36px;width:auto;display:block}
+.hd nav{display:flex;gap:4px;flex:1}
+.hd nav a{color:#fff;font-weight:800;font-size:15px;text-decoration:none;padding:9px 11px;border-radius:9px;white-space:nowrap}
+.hd nav a:hover{background:rgba(255,255,255,.22);color:#fff}
+.navmore{position:relative}
+.navmore>button{color:#fff;font-weight:800;font-size:15px;background:none;border:0;padding:9px 11px;border-radius:9px;cursor:pointer;font-family:inherit;white-space:nowrap}
+.navmore:hover>button,.navmore:focus-within>button{background:rgba(255,255,255,.22)}
+.navdd{position:absolute;top:calc(100% + 6px);left:0;background:#fff;border-radius:12px;box-shadow:0 14px 34px rgba(14,43,87,.22);padding:8px;min-width:210px;opacity:0;visibility:hidden;transform:translateY(6px);transition:.16s;z-index:30;border-top:3px solid #2b7de9}
+.navmore:hover .navdd,.navmore:focus-within .navdd{opacity:1;visibility:visible;transform:translateY(0)}
+/* 下拉字色用高優先權選擇器，避免被 .hd nav a{color:#fff} 蓋成白字 */
+.hd nav .navdd a{display:block;padding:9px 12px;border-radius:8px;color:#20314f;font-size:14px;text-decoration:none;white-space:nowrap;background:none;font-weight:700}
+.hd nav .navdd a:hover{background:#eaf3fe;color:#1b5fc0}
+.hd .auth{display:flex;align-items:center;gap:12px;margin-left:auto}
+.hd .auth a{color:#fff;font-weight:800;font-size:16px;text-decoration:none;display:flex;align-items:center;gap:6px;white-space:nowrap}
+.hd .auth .sep{width:1px;height:18px;background:rgba(255,255,255,.5)}
+/* 手機頁首列 */
+.top{display:none;align-items:center;justify-content:space-between;padding:9px 14px;background:linear-gradient(90deg,#2f74dd,#57a0e8 60%,#a9d6f5);position:sticky;top:0;z-index:30}
+.top img{height:23px;width:auto}
+.top-right{display:flex;align-items:center;gap:8px}
+.b-login{background:rgba(255,255,255,.16);color:#fff;border:1.5px solid rgba(255,255,255,.85);border-radius:999px;padding:6px 14px;font-size:13px;font-weight:800;text-decoration:none}
+.b-reg{background:linear-gradient(180deg,#ffd977,#f0b73c);color:#5a3a00;border:0;border-radius:999px;padding:7px 15px;font-size:13px;font-weight:800;text-decoration:none}
+.burger{width:28px;height:28px;display:flex;flex-direction:column;justify-content:center;gap:4px;cursor:pointer;background:none;border:0;padding:0}
+.burger i{height:2.5px;width:100%;background:#fff;border-radius:2px}
+/* 抽屜 */
+.mask{position:fixed;inset:0;background:rgba(10,25,50,.5);opacity:0;visibility:hidden;transition:.2s;z-index:60}
+.mask.show{opacity:1;visibility:visible}
+.drawer{position:fixed;top:0;left:0;bottom:0;width:80%;max-width:320px;background:#fff;transform:translateX(-100%);transition:.25s;z-index:61;overflow-y:auto}
+.drawer.show{transform:translateX(0)}
+.drawer .dh{background:linear-gradient(90deg,#2f74dd,#57a0e8);color:#fff;padding:16px;font-weight:800;font-size:16px;display:flex;justify-content:space-between;align-items:center}
+.drawer .dh .x{font-size:22px;cursor:pointer}
+.drawer .dsub{font-size:12px;color:#8a99b0;padding:12px 16px 4px;font-weight:700}
+.drawer a{display:flex;justify-content:space-between;padding:12px 18px;color:#26374f;text-decoration:none;font-size:14.5px;border-bottom:1px solid #f0f4f9}
+.drawer a:hover{background:#f4f8fc}
+/* 切換 */
+@media (max-width:900px){ .hd{display:none} .top{display:flex} }
+</style>
+
+<script is:inline>
+  function openDrawer(){var d=document.getElementById('drawer'),m=document.getElementById('mask');if(d)d.classList.add('show');if(m)m.classList.add('show');}
+  function closeDrawer(){var d=document.getElementById('drawer'),m=document.getElementById('mask');if(d)d.classList.remove('show');if(m)m.classList.remove('show');}
+</script>
