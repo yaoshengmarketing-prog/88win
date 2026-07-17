@@ -103,7 +103,9 @@ function renderProv(cat){return '<div class="plist">'+(PROV[cat]||[]).map(functi
   var badge='<span class="pv-badge"><b>高達 1.30%</b><i>無限返水</i></span>';
   return '<div class="pvcard"><img src="'+o.u+'"><div class="pv-ov">'+badge+'</div></div>';
 }).join('')+'</div>';}
-function renderGrid(cat){document.getElementById('content').innerHTML=(cat==='熱門')?renderHot():renderProv(cat);document.getElementById('secname').textContent=cat;}
+function syncRailPanel(){var m=document.querySelector('.mtop .main');if(!m)return;var r=m.querySelector('.rail'),c=m.querySelector('.content');if(r&&c)c.style.maxHeight=r.offsetHeight+'px';}
+function renderGrid(cat){document.getElementById('content').innerHTML=(cat==='熱門')?renderHot():renderProv(cat);document.getElementById('secname').textContent=cat;syncRailPanel();}
+window.addEventListener('resize',syncRailPanel);
 function railSel(b,cat){document.querySelectorAll('.rail-i').forEach(function(x){x.classList.remove('on')});b.classList.add('on');renderGrid(cat);}
 renderGrid('熱門');
 var idx=0,S=document.getElementById('slides'),D=document.getElementById('dots').children;
