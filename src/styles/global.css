@@ -184,11 +184,11 @@ img{ max-width:100%; }
 .mtop .hexb img{width:50px;height:50px}
 .mtop .secttl{display:flex;align-items:center;gap:6px;padding:2px 12px;font-size:14px;font-weight:800;color:#16325c}
 .mtop .main{display:flex;gap:8px;padding:2px 10px 10px;align-items:flex-start}
-.mtop .rail{display:flex;flex-direction:column;gap:8px;flex:0 0 60px;position:sticky;top:52px;align-self:flex-start;z-index:5}
+.mtop .rail{display:flex;flex-direction:column;gap:8px;flex:0 0 60px;align-self:flex-start}
 .mtop .rail-i{background:#fff;border:0;border-radius:12px;padding:9px 2px;font-size:12px;color:#5b6b82;display:flex;flex-direction:column;align-items:center;gap:3px;font-weight:700;box-shadow:0 2px 6px rgba(43,125,233,.06)}
 .mtop .rail-i span{font-size:20px}
 .mtop .rail-i.on{background:linear-gradient(180deg,#2f74dd,#1f6fe0);color:#fff}
-.mtop .content{flex:1}
+.mtop .content{flex:1;overflow-y:auto;-webkit-overflow-scrolling:touch;overscroll-behavior:contain}
 .mtop /* 熱門 遊戲小圖格 */
 .ggrid{display:grid;grid-template-columns:1fr 1fr;gap:9px}
 .mtop .gcard{background:#fff;border-radius:14px;overflow:hidden;box-shadow:0 3px 10px rgba(43,125,233,.1)}
@@ -249,3 +249,5 @@ img{ max-width:100%; }
 .ft-legal p{margin:0 auto 8px;max-width:760px;font-size:12px;line-height:1.8;color:#7b828c}
 .ft-legal .cp{color:#6b727c}
 @media(max-width:820px){.ft-liccards{grid-template-columns:1fr 1fr}.ft-links{grid-template-columns:1fr}}
+/* 手機版頁尾精簡：隱藏 供應商/監理/服務條款 三區塊，保留 18+ 版權 */
+@media (max-width:900px){.ft{display:none!important}}/* 手機版整個頁尾隱藏（供應商/監理/服務條款/18+版權）*/
