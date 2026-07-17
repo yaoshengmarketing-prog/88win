@@ -28,11 +28,11 @@ npm run dev      # 本機預覽 http://localhost:4321
 npm run build    # 產生靜態網站到 dist/
 ```
 
-## 部署到 Netlify（同一個網域 you888.netlify.app）
-方式 A（推薦，之後最省事）：把這個資料夾推到 GitHub → 在 Netlify 連這個 repo，
-Build command 填 `npm run build`、Publish directory 填 `dist`，之後你每次 push 就自動上線。
+## 部署到 Cloudflare Pages（預覽網域 88win.pages.dev）
+方式 A（推薦，之後最省事）：把這個資料夾推到 GitHub → 在 Cloudflare Pages 連這個 repo，
+Framework 選 `Astro`、Build command 填 `npm run build`、Build output 填 `dist`、Root directory 填 `/`、環境變數 `NODE_VERSION=20`，之後你每次 push 就自動上線。
 
-方式 B：本機 `npm run build` 後，把 `dist/` 直接拖到 Netlify 部署。
+方式 B：本機 `npm run build` 後，把 `dist/` 直接拖到 Cloudflare Pages 部署。
 
 ## SEO 內建
 - 每篇文章自動輸出 Meta Title/Description、canonical、Open Graph
